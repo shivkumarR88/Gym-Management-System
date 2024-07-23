@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Format:{name1}",
+ "creation": "2024-07-11 22:48:14.569130",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "phone",
+  "email",
+  "is_subscribed",
+  "gym_membership",
+  "price",
+  "gym_workout_plan",
+  "column_break_fvdr",
+  "registration_date",
+  "subscription_start_date",
+  "subscription_end_date",
+  "allocated_trainer",
+  "amended_from",
+  "locker_subscription_section",
+  "locker_number",
+  "locker_price",
+  "section_break_hjru",
+  "column_break_oner",
+  "column_break_vzrd",
+  "total_subscription_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "Gym Membership",
+   "options": "Gym Members"
+  },
+  {
+   "fetch_from": "name1.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_fvdr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registration_date",
+   "fieldtype": "Datetime",
+   "label": "Registration Date"
+  },
+  {
+   "fieldname": "subscription_start_date",
+   "fieldtype": "Date",
+   "label": "Subscription Start Date"
+  },
+  {
+   "fieldname": "subscription_end_date",
+   "fieldtype": "Date",
+   "label": "Subscription End Date"
+  },
+  {
+   "fieldname": "allocated_trainer",
+   "fieldtype": "Link",
+   "label": "Allocated Trainer",
+   "options": "Gym Trainer"
+  },
+  {
+   "fetch_from": "name1.phone",
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "locker_number",
+   "fieldtype": "Link",
+   "label": "Locker Number",
+   "options": "Gym Locker"
+  },
+  {
+   "fieldname": "gym_membership",
+   "fieldtype": "Link",
+   "label": "Gym Membership Plan",
+   "options": "Gym Membership Plan"
+  },
+  {
+   "fetch_from": "gym_membership.price",
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "label": "Gym Membership Price($)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Membership",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Link",
+   "label": "Gym Workout Plan",
+   "options": "Gym Workout Plan"
+  },
+  {
+   "depends_on": "is_subscribed",
+   "fieldname": "locker_subscription_section",
+   "fieldtype": "Section Break",
+   "label": "Locker Subscription "
+  },
+  {
+   "fetch_from": "locker_number.price",
+   "fieldname": "locker_price",
+   "fieldtype": "Data",
+   "label": "Locker Price "
+  },
+  {
+   "fieldname": "section_break_hjru",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_oner",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vzrd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_subscription_amount",
+   "fieldtype": "Currency",
+   "label": "Total Subscription Amount($)"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_subscribed",
+   "fieldtype": "Check",
+   "label": "Is Subscribed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-16 21:33:25.105815",
+ "modified_by": "Administrator",
+ "module": "Gymmanagementsystem",
+ "name": "Gym Membership",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

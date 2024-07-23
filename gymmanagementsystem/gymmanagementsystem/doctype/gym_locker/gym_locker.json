@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "autoname": "format: Locker-{####}",
+ "creation": "2024-07-12 20:25:28.880336",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_member",
+  "status",
+  "price"
+ ],
+ "fields": [
+  {
+   "default": "Available",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nAvailable\nBooked"
+  },
+  {
+   "fieldname": "gym_member",
+   "fieldtype": "Data",
+   "label": "Gym Member"
+  },
+  {
+   "default": "15",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price ($)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-15 22:06:56.761985",
+ "modified_by": "Administrator",
+ "module": "Gymmanagementsystem",
+ "name": "Gym Locker",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

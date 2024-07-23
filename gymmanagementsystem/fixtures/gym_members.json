@@ -1,0 +1,207 @@
+[
+ {
+  "address": "X-308 Camp NO-7 Punjabi bagh ",
+  "dob": "1999-02-10",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": "hrk23@gmail.com",
+  "gender": "Male",
+  "gym_metric": [],
+  "modified": "2024-07-16 22:06:34.886513",
+  "name": "Harish K",
+  "name1": "Harish K",
+  "phone": "7845123623"
+ },
+ {
+  "address": null,
+  "dob": "2004-05-07",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": "vssg@gmail.com",
+  "gender": "Male",
+  "gym_metric": [],
+  "modified": "2024-07-17 20:29:12.802776",
+  "name": "Karan",
+  "name1": "Karan",
+  "phone": "1556"
+ },
+ {
+  "address": null,
+  "dob": "2027-07-02",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 22:49:11.717280",
+  "name": "Shiva",
+  "name1": "Shiva",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2024-07-04",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 22:50:57.920314",
+  "name": "John",
+  "name1": "Johny",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2004-02-12",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 22:53:40.961139",
+  "name": "Sharukh",
+  "name1": "Sharukh",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2001-05-02",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 23:00:26.313650",
+  "name": "Karthik",
+  "name1": "Karthik",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2001-05-02",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 23:02:09.286001",
+  "name": "Shubham",
+  "name1": "Shubham",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2001-05-03",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 23:08:38.300770",
+  "name": "teat",
+  "name1": "teat",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2001-03-06",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": null,
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-18 23:10:22.213495",
+  "name": "Shanks",
+  "name1": "Shanks",
+  "phone": null
+ },
+ {
+  "address": null,
+  "dob": "2000-11-15",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": "shubam23@gmail.com",
+  "gender": "",
+  "gym_metric": [],
+  "modified": "2024-07-15 22:37:40.342934",
+  "name": "Shubam",
+  "name1": "Shubam",
+  "phone": "8547845988"
+ },
+ {
+  "address": null,
+  "dob": "2001-09-26",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": "shah22@gmail.com",
+  "gender": "Male",
+  "gym_metric": [],
+  "modified": "2024-07-15 22:31:42.107845",
+  "name": "shah",
+  "name1": "shah",
+  "phone": "7894787458"
+ },
+ {
+  "address": "X 308 Camp no 1 Delhi",
+  "dob": "2001-05-16",
+  "docstatus": 0,
+  "doctype": "Gym Members",
+  "email": "sk3@gmail.com",
+  "gender": "Male",
+  "gym_metric": [
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-14",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 78.0
+   },
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-15",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 78.0
+   },
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-16",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 78.0
+   },
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-17",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 79.0
+   },
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-18",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 79.0
+   },
+   {
+    "calories_intake": 100.0,
+    "date": "2024-07-19",
+    "parent": "Shiv Kumar R",
+    "parentfield": "gym_metric",
+    "parenttype": "Gym Members",
+    "weight": 79.0
+   }
+  ],
+  "modified": "2024-07-14 22:24:22.249744",
+  "name": "Shiv Kumar R",
+  "name1": "Shiv Kumar R",
+  "phone": "8810328981"
+ }
+]

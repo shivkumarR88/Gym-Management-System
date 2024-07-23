@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-21 15:50:36.628490",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "number_1",
+  "number_2",
+  "total_addition"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_1",
+   "fieldtype": "Currency",
+   "label": "Number 1"
+  },
+  {
+   "fieldname": "number_2",
+   "fieldtype": "Currency",
+   "label": "Number 2"
+  },
+  {
+   "fieldname": "total_addition",
+   "fieldtype": "Currency",
+   "label": "Total (Addition)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-21 15:51:39.856157",
+ "modified_by": "Administrator",
+ "module": "Gymmanagementsystem",
+ "name": "Child Table for Dummy",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
