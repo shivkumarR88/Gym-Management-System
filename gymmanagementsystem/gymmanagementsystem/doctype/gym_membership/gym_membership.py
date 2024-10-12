@@ -21,12 +21,11 @@ class GymMembership(Document):
    
    
 #    Frappe call Method 
-
-# @frappe.whitelist()
-# def frappe_call(msg):
-#     import time
-#     time.sleep(2)
-#     frappe.msgprint(msg)
-#     return"Hi This is a Message from Frappe Call Method By Shiva "
+@frappe.whitelist()
+def frappe_call(msg):
+    import time
+    time.sleep(2)
+    frappe.msgprint(msg)
+    return"Hi This is a Message from Frappe Call Method By Shiva "		
 
 

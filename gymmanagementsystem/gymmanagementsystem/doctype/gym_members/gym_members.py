@@ -5,12 +5,18 @@ import frappe
 from frappe.model.document import Document
 
 class GymMembers(Document):
-    pass
+    # pass
+    
+    def validate(self):
+        self.new_document()
+        
+        
+    def new_document(self):
+        doc=frappe.new_doc("Gym Membership")
+        doc.name1=self.name1
 
-@frappe.whitelist()
-def my_method(name1, dob):
-    message = f'Hello, {name1}. Your Date of birth is {dob} .'
-    return message
+        doc.insert()
+
 
 
 

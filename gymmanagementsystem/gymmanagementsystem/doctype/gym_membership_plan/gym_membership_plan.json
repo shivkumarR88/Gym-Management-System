@@ -10,7 +10,10 @@
   "description",
   "durationmonths",
   "price",
-  "features"
+  "features",
+  "gym_workout_plan",
+  "table",
+  "amended_from"
  ],
  "fields": [
   {
@@ -39,11 +42,34 @@
    "fieldname": "price",
    "fieldtype": "Currency",
    "label": "Price($)"
+  },
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Link",
+   "label": "Gym Workout Plan",
+   "options": "Gym Workout Plan"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Exercise"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Membership Plan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-07-14 21:49:49.036827",
+ "modified": "2024-07-25 21:56:19.581806",
  "modified_by": "Administrator",
  "module": "Gymmanagementsystem",
  "name": "Gym Membership Plan",

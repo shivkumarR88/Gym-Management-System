@@ -11,6 +11,12 @@ fixtures =[
 ]
 
 
+    
+# doc_events={
+#     "Dummy":{
+#         "validate": 'gymmanagementsystem.gymmanagementsystem.doctype.dummy.dummy.validate_dummy'
+#     }
+# }
 
 
 

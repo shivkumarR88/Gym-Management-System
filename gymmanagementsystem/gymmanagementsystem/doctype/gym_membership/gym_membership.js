@@ -6,7 +6,7 @@ frappe.ui.form.on("Gym Membership", {
             frappe.call({
                 method: 'gymmanagementsystem.gymmanagementsystem.doctype.gym_membership.gym_membership.frappe_call',
                 args:{
-                    msg:`Hello ${frm.doc.name1} has been the Gym and Subscribed the Locker `
+                    msg:`Hello ${frm.doc.name1} has been the Added to the Gym and Subscribed the Locker `
                 },
                 freeze:true,
                 freeze_message:__("Calling frappe Call Method by Shiva"),
@@ -17,5 +17,11 @@ frappe.ui.form.on("Gym Membership", {
 
         }
 
-    }
-);
+    
+});
+
+frappe.ui.form.on('Gym Membership', {
+	refresh(frm) {
+		frm.set_intro("To Confirm your Membership fill this form Correctly ")
+	}
+})

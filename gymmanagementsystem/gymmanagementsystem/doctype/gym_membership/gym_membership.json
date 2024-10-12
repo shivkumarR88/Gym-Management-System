@@ -8,23 +8,25 @@
  "field_order": [
   "name1",
   "phone",
+  "allocated_trainer",
   "email",
   "is_subscribed",
-  "gym_membership",
-  "price",
-  "gym_workout_plan",
   "column_break_fvdr",
   "registration_date",
   "subscription_start_date",
   "subscription_end_date",
-  "allocated_trainer",
   "amended_from",
-  "locker_subscription_section",
-  "locker_number",
-  "locker_price",
+  "gym_plan_section",
+  "gym_membership",
+  "price",
+  "column_break_cyah",
+  "gym_workout_plan",
+  "durationmonths",
   "section_break_hjru",
   "column_break_oner",
   "column_break_vzrd",
+  "column_break_vztn",
+  "column_break_cnmo",
   "total_subscription_amount"
  ],
  "fields": [
@@ -72,12 +74,6 @@
    "label": "Phone"
   },
   {
-   "fieldname": "locker_number",
-   "fieldtype": "Link",
-   "label": "Locker Number",
-   "options": "Gym Locker"
-  },
-  {
    "fieldname": "gym_membership",
    "fieldtype": "Link",
    "label": "Gym Membership Plan",
@@ -101,22 +97,11 @@
    "search_index": 1
   },
   {
+   "fetch_from": "gym_membership.gym_workout_plan",
    "fieldname": "gym_workout_plan",
    "fieldtype": "Link",
    "label": "Gym Workout Plan",
    "options": "Gym Workout Plan"
-  },
-  {
-   "depends_on": "is_subscribed",
-   "fieldname": "locker_subscription_section",
-   "fieldtype": "Section Break",
-   "label": "Locker Subscription "
-  },
-  {
-   "fetch_from": "locker_number.price",
-   "fieldname": "locker_price",
-   "fieldtype": "Data",
-   "label": "Locker Price "
   },
   {
    "fieldname": "section_break_hjru",
@@ -140,12 +125,35 @@
    "fieldname": "is_subscribed",
    "fieldtype": "Check",
    "label": "Is Subscribed"
+  },
+  {
+   "fieldname": "column_break_vztn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cnmo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gym_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Gym Plan"
+  },
+  {
+   "fieldname": "column_break_cyah",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "gym_membership.durationmonths",
+   "fieldname": "durationmonths",
+   "fieldtype": "Data",
+   "label": "Duration(months)"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-16 21:33:25.105815",
+ "modified": "2024-07-25 22:28:22.649926",
  "modified_by": "Administrator",
  "module": "Gymmanagementsystem",
  "name": "Gym Membership",

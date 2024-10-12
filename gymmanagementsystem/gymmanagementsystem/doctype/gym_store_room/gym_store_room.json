@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-24 23:02:03.522743",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "locker_number",
+  "gym_member",
+  "locker_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "locker_number",
+   "fieldtype": "Link",
+   "label": "Locker Number ",
+   "options": "Gym Locker"
+  },
+  {
+   "fieldname": "gym_member",
+   "fieldtype": "Link",
+   "label": "Gym Member",
+   "options": "Gym Members"
+  },
+  {
+   "fieldname": "locker_price",
+   "fieldtype": "Data",
+   "label": "Locker Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-25 22:43:56.413238",
+ "modified_by": "Administrator",
+ "module": "Gymmanagementsystem",
+ "name": "Gym Store Room",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
